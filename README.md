@@ -11,7 +11,7 @@ This notebook: `Sports_Image_Classification.ipynb` was used to train a sports cl
 
 This dataset consists of `11146` images in **73 Sports classes**. Below are sample images from some of the classes present in the dataset:
 
-[TODO ADD IMAGE HERE]
+![](./visuals/sports_classification_image.jpg?raw=true)
 
 This train data was further split into a `80-20` train-validation split to perform training and evaluation.
 
@@ -53,9 +53,11 @@ data_augmentation = tf.keras.Sequential([
 
 ---
 
-### Loss and Metric Plots:
+### Loss and Accuracy:
 
-[TODO: ADD IMAGE HERE]
+![](./visuals/sports_classification_loss.png?raw=true)
+
+![](./visuals/sports_classification_accuracy.png?raw=true)
 
 ---
 
@@ -63,4 +65,4 @@ data_augmentation = tf.keras.Sequential([
 
 The configurations discussed above, yielded a score of **0.91921** on the Kaggle's Leaderboard.
 
-[TODO: ADD IMAGE HERE]
+![](./visuals/sports_classification_kaggle_leaderboard.png?raw=true)

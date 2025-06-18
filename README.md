@@ -3,8 +3,6 @@
 ### Project Summary:
 This project creates a machine learning model to classify images into multiple sports categories using TensorFlow/Keras. The number of sports' categories is **73**.
 
-This notebook: `Sports_Image_Classification.ipynb` was used to train a sports classification challenge held in Kaggle conducted by OpenCV University.
-
 ---
 
 ### Dataset Description:
